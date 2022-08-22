@@ -1,0 +1,59 @@
+* {
+    font-family: Helvetica;
+    font-weight: 400;
+}
+
+#titulo{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.jogador {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.computador {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+} 
+
+#jogador {
+    background-color: #57B8FF;
+}
+
+#jogador-pontos, #computador-pontos {
+    position: absolute;
+    font-size: 30px;
+    right: 40px;
+}
+
+#computador {
+    background-color: #D81E5B;
+    
+   
+}
+
+#versus {
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+ }
+
+#pc{
+   
+}
+#mensagem {
+   background-color: #00F6ED;
+   font-size: 25px;
+   border-radius: 5px;
+   margin: 40px 0;
+   padding: 20px;
+   
+}
+
+

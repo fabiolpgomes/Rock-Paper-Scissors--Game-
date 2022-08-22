@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pedra, Papel e Tesoura</title>
+    <!-- incluido javascript aqui... -->
+    <script src="./js/Game.js"></script>
+    <script src= "js/index.js"></script>
+</head>
+
+<body>
+    
+    <h1 id="titulo">Pedra, Papel e Tesoura (Jankenpon)</h1>
+    <hr>
+        <h3 class="jogador"> Jogador </h3> <span id="jogador-pontos">0</span>
+    <div id = jogador>
+        <img src="./assets/Pedra.jpg" alt="Pedra">
+        <img src="./assets/Papel.png" alt="Papel">
+        <img src="./assets/Tesoura.png" alt="Tesoura">
+    <form class="formJokenpo" name="formJokenpo">
+        <input type="radio" name="grupo" id="pedra">Pedra
+        <input type="radio" name="grupo" id="papel">Papel
+        <input type="radio" name="grupo" id="tesoura">Tesoura
+        <p>
+        <input type="button" value="Jogar" onclick="jogar()">
+        <input type="reset" value="Reset" onclick="reset()">
+        </p>
+    </form>
+    </div>
+
+    <div id="versus">X</div>
+
+    <div id="computador">
+                <h3 class="computador"> Computador </h3> <span id="computador-pontos">0</span>
+                <img src="./assets/PC.png" alt = "PC" id="pc">
+                
+            
+    </div>
+
+    <div>
+                <h3 id="placar"></h3>
+    </div>  
+
+    
+
+    <div id="mensagem">Mensagem: </div>
+
+
+
+
+
+
+</body>
+
+</html>
+
