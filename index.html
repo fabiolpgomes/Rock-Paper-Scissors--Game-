@@ -9,45 +9,60 @@
     <title>Pedra, Papel e Tesoura</title>
     <!-- incluido javascript aqui... -->
     <script src="./js/Game.js"></script>
-    <script src= "js/index.js"></script>
+    <script src="js/index.js"></script>
 </head>
 
 <body>
-    
-    <h1 id="titulo">Pedra, Papel e Tesoura (Jankenpon)</h1>
-    <hr>
-        <h3 class="jogador"> Jogador </h3> <span id="jogador-pontos">0</span>
-    <div id = jogador>
-        <img src="./assets/Pedra.jpg" alt="Pedra">
-        <img src="./assets/Papel.png" alt="Papel">
-        <img src="./assets/Tesoura.png" alt="Tesoura">
-    <form class="formJokenpo" name="formJokenpo">
-        <input type="radio" name="grupo" id="pedra">Pedra
-        <input type="radio" name="grupo" id="papel">Papel
-        <input type="radio" name="grupo" id="tesoura">Tesoura
-        <p>
-        <input type="button" value="Jogar" onclick="jogar()">
-        <input type="reset" value="Reset" onclick="reset()">
-        </p>
-    </form>
-    </div>
 
-    <div id="versus">X</div>
+    <header class="header">
+        <h1>Pedra, Papel e Tesoura (Jankenpon)</h1>
+    </header>
+    <hr>
+
+    <section class="flex">
+        <h3 class="jogador"> Jogador </h3> <span id="jogador-pontos">0</span>
+
+        <div class="formJokenpo" name="formJokenpo">
+            <div>
+                <img src="./assets/Pedra.png" alt="Pedra" />
+                <input type="radio" name="grupo" id="pedra">Pedra
+            </div>
+            <div>
+                <img src="./assets/Papel.png" alt="Papel" />
+                <input type="radio" name="grupo" id="papel">Papel
+            </div>
+            <div>
+                <img src="./assets/Tesoura.png" alt="Tesoura" />
+                <input type="radio" name="grupo" id="tesoura">Tesoura
+            </div>
+            <div class="button">
+                <input type="button" value="JOGAR" onclick="jogar()" />
+                <input type="button" value="RESET" id="reset" onclick="reset()" />
+            </div>
+
+
+        </div>
+
+    </section>
+
+<hr>
+    <div id="versus">vs</div>
+<hr>
 
     <div id="computador">
-                <h3 class="computador"> Computador </h3> <span id="computador-pontos">0</span>
-                <img src="./assets/PC.png" alt = "PC" id="pc">
-                
-            
+        <h3 class="computador"> Computador </h3> <span id="computador-pontos">0</span>
+        <img src="./assets/PC.png" alt="PC" id="pc" />
+
+
     </div>
 
     <div>
-                <h3 id="placar"></h3>
-    </div>  
+        <h3 id="placar"></h3>
+    </div>
 
-    
 
-    <div id="mensagem">Mensagem: </div>
+
+    <div id="mensagem">Resultado: </div>
 
 
 
@@ -57,4 +72,3 @@
 </body>
 
 </html>
-
