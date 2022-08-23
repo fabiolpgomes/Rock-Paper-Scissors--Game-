@@ -24,6 +24,7 @@ function jogar(){
         (document.getElementById("papel").checked == true && ramPc == 1) ||
         (document.getElementById("tesoura").checked == true && ramPc == 2)) {
             document.getElementById("placar").innerHTML="Empate";
+            
 
         } else if ((document.getElementById("pedra").checked == true && ramPc == 2) ||
         (document.getElementById("papel").checked == true && ramPc == 0) ||
