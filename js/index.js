@@ -46,21 +46,29 @@ function jogar(){
             document.getElementById("placar").innerHTML="Jogador Venceu";
             info.jogador++
             console.log(`jogador:${info.jogador}`);
+            document.getElementById("jogador-pontos").innerText = `${info.jogador}`
 
 
         } else {
             document.getElementById("placar").innerHTML="Computador Venceu"; 
             info.computador++;
             console.log(`computador:${info.computador}`);
+            document.getElementById("computador-pontos").innerText = `${info.computador}`
         }
         
         if(info.rodada === 5) {
-           console.log(`===FINAL DO JOGO===`);
+            document.getElementById("jogar").style.display = "none";
+            document.getElementById("reset").style.display = "none";
+            document.getElementById("versus").style.display = "none";
+            document.getElementById("computador").style.display = "none";
+
+            
+            console.log(`===FINAL DO JOGO===`);
             console.log(`computador:${info.computador}`);
             console.log(`jogador:${info.jogador}`);
             console.log(`empate:${info.empate}`);
-
         }
+        
         
     }
     

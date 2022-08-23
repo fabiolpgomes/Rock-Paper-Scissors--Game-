@@ -35,12 +35,18 @@
                 <img src="./assets/Tesoura.png" alt="Tesoura" />
                 <input type="radio" name="grupo" id="tesoura">Tesoura
             </div>
-            
+
             <div class="button">
-                <input type="button" value="JOGAR" id=jogar onclick="jogar()" />
+                <input type="button" value="JOGAR" id="jogar" onclick="jogar()" />
                 <input type="button" value="RESET" id="reset" onclick="reset()" />
             </div>
 
+
+
+            <div class="retornar hide">
+                <button>Jogar Novamente</button>
+
+            </div>
 
         </div>
 
@@ -48,8 +54,12 @@
 
     <hr>
     <div id="versus">vs
-
     </div>
+
+    <div class="resultado hide">
+        <h1>resultado </h1>
+    </div>
+
     <hr>
 
     <div id="computador">
@@ -59,10 +69,6 @@
 
     </div>
 
-    <!-- <div>
-        <h3 id="placar"></h3>
-    </div>
--->
 
     <div id="placar">
 
