@@ -15,6 +15,6 @@ The stone is symbolized by a closed fist; the scissors, by two fingers outstretc
 
 ## Access
 
-Link of the game:  [Deploy link](https://mauricio-alves.github.io/project01_ironhack/)
+Link of the game:  [Deploy link]
 
 If you want to know more about me and this project. Feel free to access this  [presentation link](https://docs.google.com/presentation/d/1GvDJ1VO10tuOvlnd__RAF4_7HWrVAV6rN4MZeimJe9M/edit?usp=sharing).
