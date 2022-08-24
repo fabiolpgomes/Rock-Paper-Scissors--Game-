@@ -60,18 +60,36 @@ function jogar(){
             document.getElementById("versus").style.display = "none";
             document.getElementById("computador").style.display = "none";
             document.getElementById("placar").style.display = "none";
-            document.getElementById('jogar-novamente').style.display = "flex";
             document.getElementById("formJokenpo").style.display = "none";
+            document.getElementById('jogar-novamente').style.display = "flex";
 
+           // document.getElementById("resultadoJogador").innerHTML = "jogador";
+           // jogadorPt.innerText = info.jogador; Outra opcao mais clara 
+            const jogadas = document.getElementById("numeroJogadas").innerText = info.rodada
+            const empate = document.getElementById("resultadoEmpate").innerText = info.empate
+            const jogadorPt = document.getElementById("resultadoJogador").innerText = info.jogador
+            const computadorPt = document.getElementById("resultadoComputador").innerText = info.computador
+            const ganhador = document.getElementById("resultadoEmpate").innerText = info.empate
+           
+            
+            if(info.jogador > info.computador) {
+            const vencedorJogador = document.getElementById("resultadoGanhador").innerText = "Jogador"
+            } else if (info.computador > info.jogador){
+            const vencedorComputador = document.getElementById("resultadoGanhador").innerText = "Computador"
+            } else if (info.jogador === info.computador){
+            const vencedorEmpate = document.getElementById("resultadoGanhador").innerText = "Empate"
+            }
             
             
+           /* 
             console.log(`===FINAL DO JOGO===`);
             console.log(`computador:${info.computador}`);
             console.log(`jogador:${info.jogador}`);
-            console.log(`empate:${info.empate}`);
+            console.log(`empate:${info.empate}`);  */
+
+
         }
         
-
         
     }
     

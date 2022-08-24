@@ -24,7 +24,7 @@
     <section class="flex">
 
         <div id="formJokenpo" name="formJokenpo">
-            <h3 class="jogador"> Jogador </h3> <span id="jogador-pontos">0</span>
+            <h3 id="jogador">Jogador</h3><span id="jogador-pontos">0</span>
 
             <div>
                 <img src="./assets/Pedra.png" alt="Pedra" />
@@ -38,13 +38,6 @@
                 <img src="./assets/Tesoura.png" alt="Tesoura" />
                 <input type="radio" name="grupo" id="tesoura">Tesoura
             </div>
-
-
-            <div class="retornar hide">
-                <input type="button" value="Jogar Novamente" id="jogar-novamente" onclick="jogarnovamente()" />
-
-            </div>
-
         </div>
 
     </section>
@@ -68,6 +61,22 @@
 
 
     <div id="placar"></div>
+
+    <div id="jogar-novamente">
+
+        <div id="resultado">
+            <h1>Fim de Jogo - Resultado</h1>
+            <p>O numero de Jogadas: <span id="numeroJogadas"></span>;</p>
+            <p>Pontuacao do Jogador: <span id="resultadoJogador"></span> pontos;</p>
+            <p>Pontuacao do Computador: <span id="resultadoComputador"> pontos;</p>
+            <p>Numero de Empates: <span id="resultadoEmpate"></span> ;</p>
+            <h2>O Ganhador foi <span id="resultadoGanhador"></span></h2>
+            <input type="button" value="Jogar Novamente" id="jogarNovamente" onclick="jogarnovamente()" />
+
+        </div>
+
+
+    </div>
 </body>
 
 <footer>
