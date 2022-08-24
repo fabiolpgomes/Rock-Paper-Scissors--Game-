@@ -1,15 +1,13 @@
-//manipulando o dom
-//instanciando nossa classe Game
-
-let info = {
+    let info = {
     rodada: 0,
     jogador: 0,
     computador: 0,
     empate: 0, 
 }
-
+   // document.getElementById("jogar-novamente").style.display = "none";
 
 function jogar(){
+    
     if(document.getElementById("pedra").checked == false &&
      document.getElementById("papel").checked == false &&
      document.getElementById("tesoura").checked == false) {
@@ -61,7 +59,11 @@ function jogar(){
             document.getElementById("reset").style.display = "none";
             document.getElementById("versus").style.display = "none";
             document.getElementById("computador").style.display = "none";
+            document.getElementById("placar").style.display = "none";
+            document.getElementById('jogar-novamente').style.display = "flex";
+            document.getElementById("formJokenpo").style.display = "none";
 
+            
             
             console.log(`===FINAL DO JOGO===`);
             console.log(`computador:${info.computador}`);
@@ -69,6 +71,7 @@ function jogar(){
             console.log(`empate:${info.empate}`);
         }
         
+
         
     }
     
@@ -82,9 +85,11 @@ function reset(){
     document.getElementById("pedra").checked = false;
     document.getElementById("papel").checked = false;
     document.getElementById("tesoura").checked = false;
-
 }
 
+function jogarnovamente() {
+    document.location.reload(true);
+}
 
 
 

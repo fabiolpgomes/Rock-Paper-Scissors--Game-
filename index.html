@@ -16,13 +16,16 @@
 
     <header class="header">
         <h1>Pedra, Papel e Tesoura (Jokenpô)</h1>
+
     </header>
-    <hr>
+
+
 
     <section class="flex">
-        <h3 class="jogador"> Jogador </h3> <span id="jogador-pontos">0</span>
 
-        <div class="formJokenpo" name="formJokenpo">
+        <div id="formJokenpo" name="formJokenpo">
+            <h3 class="jogador"> Jogador </h3> <span id="jogador-pontos">0</span>
+
             <div>
                 <img src="./assets/Pedra.png" alt="Pedra" />
                 <input type="radio" name="grupo" id="pedra">Pedra
@@ -36,15 +39,9 @@
                 <input type="radio" name="grupo" id="tesoura">Tesoura
             </div>
 
-            <div class="button">
-                <input type="button" value="JOGAR" id="jogar" onclick="jogar()" />
-                <input type="button" value="RESET" id="reset" onclick="reset()" />
-            </div>
-
-
 
             <div class="retornar hide">
-                <button>Jogar Novamente</button>
+                <input type="button" value="Jogar Novamente" id="jogar-novamente" onclick="jogarnovamente()" />
 
             </div>
 
@@ -52,34 +49,31 @@
 
     </section>
 
-    <hr>
+    <div class="button">
+        <input type="button" value="JOGAR" id="jogar" onclick="jogar()" />
+        <input type="button" value="RESET" id="reset" onclick="reset()" />
+    </div>
+
+
     <div id="versus">vs
     </div>
 
-    <div class="resultado hide">
-        <h1>resultado </h1>
-    </div>
 
-    <hr>
 
     <div id="computador">
         <h3 class="computador"> Computador </h3> <span id="computador-pontos">0</span>
         <img src="./assets/PC.png" alt="PC" id="pc" />
 
-
     </div>
 
 
-    <div id="placar">
-
-    </div>
-
-
-
+    <div id="placar"></div>
 </body>
 
 <footer>
-    Fabio Gomes 2022
+    <p class="rodape">Made by Fabio Gomes 2022</p>
+    <a href="https://github.com/fabiolpgomes">GitHub</a>
+    <a href="https://www.linkedin.com/in/fabiolpgomes/">Linkedin</a>
 </footer>
 
 </html>

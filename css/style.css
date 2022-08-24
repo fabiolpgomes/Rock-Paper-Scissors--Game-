@@ -4,46 +4,51 @@
     font-family: 'Poppins';
     margin: 0px;
     padding: 0px;
-    
+    background-color:#00D1AC;
+   
 }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
 
+}
 
 .header{
-    justify-content: center;
-    text-align: center;
-    padding: 25px;
-    background-color: #9EB3C2;
-    font-size: 1.5rem;
-    flex: wrap;
-
+  margin-top: 20px;
+  font-size: 1.3rem;
 }
 
-hr {
-    margin:20px;
-}
 
 img {
     max-width: 100%;
     display: block;
-    width: 190px;
-    height: 130px;
+    width: 150px;
+    height: 140px;
     margin: 10px;
 
 }
 
-.formJokenpo{
+#formJokenpo{
   display: flex;
   justify-content: space-evenly;
-  text-align: left;
+  text-align: center;
   margin: 40px;
   align-content: space-between;
   align-items: baseline;
   flex-wrap: wrap;
   flex-direction: row;
+  font-size: 1.5rem;
 }
 
-.button{
- display: flexbox;
+#jogar, #reset{
+  margin: 0 20px;  /*sentido horario */
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  box-shadow: 4px 4px 4px black; /* x,y,z cor */
 }
 
 .flex {
@@ -61,22 +66,20 @@ img {
 #computador {
     display: flex;
     align-items: center;
-  
+    font-size: 1.3rem;
+    text-align: left;
+    
 }
 #jogador-pontos, #computador-pontos {
-    position: absolute;
+    margin: 5px;
     font-size: 30px;
     right: 40px;
   }
   
 #versus {
-    font-size: 50px;
-    display: flex;
-    justify-content: space-evenly;
+    margin-top: 10px;  
+    font-size: 3rem;
     text-align: center;
-    align-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
     color: #D81E5B;
     
  }
@@ -95,4 +98,13 @@ span {
   font-size: large;
 }
 
+footer{
+  text-align: center;
+  font-size: 1rem;
 
+}
+
+#jogar-novamente{
+  display: none;
+
+}
