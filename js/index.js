@@ -19,11 +19,11 @@ function jogar(){
         let ramPc = Math.floor(Math.random() * 3) ;
         
         switch(ramPc) {
-            case 0: document.getElementById("pc").src="../assets/PcPedra.png";
+            case 0: document.getElementById("pc").src="./assets/PcPedra.png";
             break;
-            case 1: document.getElementById("pc").src="../assets/PcPapel.png";
+            case 1: document.getElementById("pc").src="./assets/PcPapel.png";
             break;
-            case 2: document.getElementById("pc").src="../assets/PcTesoura.png";
+            case 2: document.getElementById("pc").src="./assets/PcTesoura.png";
             break;
         }
         
