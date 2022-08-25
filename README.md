@@ -7,7 +7,7 @@ Inspired by the game I usually play with my son.
 
 ## Game Description 
 
-<code><img height="" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
+<code><img height="" src="https://i.imgur.com/XeeggKv.png"></code>
 
 Rock, paper and scissors, also called in some regions of Brazil as **jokenpô**, in this game the Player will compete with the Computer. On the screen shows 3 symbol: "Rock, Paper and Scissors", the Player selects a symbol, the computer's choice is random.
 Then, the program compares the symbols to decide who won, as follows:
