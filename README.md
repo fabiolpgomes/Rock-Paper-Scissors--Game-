@@ -15,6 +15,8 @@ The stone is symbolized by a closed fist; the scissors, by two fingers outstretc
 
 ## Access
 
-Link of the game:  [Deploy link]
+Link of the game:  Deploy link
 
-If you want to know more about me and this project. Feel free to access this  [presentation link](https://docs.google.com/presentation/d/1GvDJ1VO10tuOvlnd__RAF4_7HWrVAV6rN4MZeimJe9M/edit?usp=sharing).
+If you want to know more about me and this project. Feel free to access this  [presentation link](https://drive.google.com/file/d/1B4VfX262u9rmcUZOLyhQMqxFZLeTSYEE/view?usp=sharing)
+or / ou
+Se você quiser saber mais sobre mim e este projeto. Sinta-se à vontade para acessar este [link da apresentação](https://drive.google.com/file/d/1RDppSEOdliULIMmjRrcBSeXlPiDKodht/view?usp=sharing)
