@@ -19,6 +19,10 @@ Then, the program compares the symbols to decide who won, as follows:
 
 The stone is symbolized by a closed fist; the scissors, by two fingers outstretched; and the paper, by the open hand. If two players make the same gesture, a tie occurs, and it is usually played again until the tie is broken. This game consists of 5 moves, whoever has the most points wins.
 
+#### Features - HTML / CSS / JavaScript
+
+
+
 #### Good luck in the game and I hope you like it! 👍
 
 ## Built With
@@ -27,7 +31,7 @@ The stone is symbolized by a closed fist; the scissors, by two fingers outstretc
 
 ## Link Access
 
-[Link of the game](https://fabiolpgomes.github.io/IronHack-Project1/)
+[Link of the game](https://fabiolpgomes.github.io/Rock-Paper-Scissors--Game-/)
 
 If you want to know more about me and this project. Feel free to access this [presentation link](https://docs.google.com/presentation/d/1GvDJ1VO10tuOvlnd__RAF4_7HWrVAV6rN4MZeimJe9M/edit?usp=sharing)
 or / ou
